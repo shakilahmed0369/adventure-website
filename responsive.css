@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1200px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+        height: 50vh;
+
+    }
+
+    .hero-text-box {
+        width: 100%;
+        display: block;
+
+    }
+
+    .testimonials {
+        height: 50vh;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .header {
+        position: relative;
+    }
+
+    .content {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    header {
+        height: 65vh;
+    }
+
+    .testimonials {
+        height: 60vh
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .main-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .btn button {
+        margin-top: 3rem;
+    }
+
+    .testimonial-all p {
+        font-size: 1.2rem
+    }
+
+    header {
+        height: 70vh;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .grid-section .span_1_of_3 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hero-text-box h1 {
+        font-size: 4rem;
+        width: auto;
+    }
+
+    .hero-text-box p {
+        width: auto
+    }
+
+    .text-box .date {
+        margin: 4rem 0;
+        text-align: center;
+        width: 49.2%;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    header{
+        height: 
+    }
+    .hero-text-box h1 {
+        font-size: 3rem;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .hero-text-box h1 {
+        font-size: 3rem;
+        width: auto;
+    }
+
+}
